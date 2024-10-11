@@ -9,7 +9,7 @@ export default class extends Controller {
         this.listTarget.hidden = true;
         this.newTarget.hidden = false;
     }
-    list(){
+    list(){  
         this.newTarget.hidden = true;
         this.listTarget.hidden = false;
     }
